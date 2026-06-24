@@ -1,11 +1,20 @@
  "use client"
  import Image from "next/image";
  import { motion } from "framer-motion";
- import project1 from "../assets/project3.png";
- import project2 from "../assets/project2.png";
- import project3 from "../assets/project1.png";
+import project0 from "../assets/project.jpg";
+import project1 from "../assets/project3.png";
+import project2 from "../assets/project2.png";
+import project3 from "../assets/project1.png";
 
  const projects  = [
+    {
+        title:"Service Order Life Cycle Management",
+        desc:"Developed a full-stack event management application with Next.js and PostgreSQL for creating, managing, and tracking events. Implemented responsive UI, backend APIs, and deployed on Render for reliable performance.",
+        devstack:"Next.js, PostgreSQL, Tailwind CSS",
+        link:"https://service-order-lifecycle-management.onrender.com/",
+        git:"",
+        src: project0
+    },
     {
         title:"Movie Recommendation Website",
         desc:"The movie recommendation website delivers personalized film suggestions based on your preferences and viewing history. Discover new movies and build custom watchlists for a tailored viewing experience.",

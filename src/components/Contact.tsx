@@ -55,8 +55,8 @@ const Contact = () => {
           
 
                <div className='bg-white/10 p-6 rounded-xl max-w-[550px]'>
-                <h2 className='text-5xl font-bold text-[#66FCF1] mb-4'>Let&aposs connect</h2>
-                <p className='text-white/70 mb-6'>Send me a message and lets schedule a call!</p>
+                <h2 className='text-5xl font-bold text-[#66FCF1] mb-4'>Contact</h2>
+                <p className='text-white/80 mb-6'>Send me a message and I will get back to you soon.</p>
 
 
                 <form
